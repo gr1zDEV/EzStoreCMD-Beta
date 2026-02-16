@@ -1,0 +1,16 @@
+name: EZStoreCmd
+main: org.ezinnovations.ezstorecmd.EZStoreCmd
+version: 1.0.0
+api-version: '1.21'
+author: EZInnovations
+commands:
+  store:
+    description: Shows the store link message.
+    usage: /store
+  ezstore:
+    description: Administrative command for EZStoreCmd.
+    usage: /ezstore reload
+permissions:
+  ezstore.admin:
+    description: Allows reloading EZStoreCmd config.
+    default: op

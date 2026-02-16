@@ -1,0 +1,14 @@
+message:
+  reload: 
+    -  "&#00A4FC&l•&r &f&nReloaded the config!"
+  store: 
+   -  "&#00A4FCᴊᴏɪɴ ᴛʜᴇ 2bz.org ᴄᴏᴍᴍᴜɴɪᴛʏ"
+   -  "&#00A4FC&l•&r &f&n%link%"
+  link: "store.2bz.org" 
+
+sounds:
+  pling:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.5
+    pitch: 1.0
