@@ -1,6 +1,6 @@
 # EZStoreCmd
 
-EZStoreCmd is a Paper 1.21.x plugin that provides a simple `/store` command and an admin `/ezstore reload` command.
+EZStoreCmd is a Paper/Folia 1.21.x plugin that provides a simple `/store` command and an admin `/ezstore reload` command.
 
 ## Features
 
@@ -54,4 +54,5 @@ sounds:
 ## Notes
 
 - Supports hex color syntax `&#RRGGBB` and legacy color/formatting codes (`&l`, `&r`, `&f`, `&n`, etc.).
+- Declares native Folia compatibility via `folia-supported: true` in `plugin.yml`.
 - Invalid configured sound names are handled safely with a warning in console.
